@@ -18,7 +18,7 @@ def get_counts(sequence):
     counts = {}
     for x in sequence:
         if x in counts:
-            counts[x] +=1
+            counts[x] += 1
         else:
             counts[x] = 1
     return counts
@@ -448,3 +448,11 @@ from urllib import request
 parsed = parse(request.urlopen('http://finance.yahoo.com/q/op?s=AAPL+Options'))
 doc = parsed.getroot()
 links = doc.findall('.//a')
+
+
+for i in range(10):
+    print(i)
+else:
+    print("GO　TO　ＥＬＳＥ")
+    for j in range(11, 20):
+        print(j)

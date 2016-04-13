@@ -14,7 +14,7 @@ while True:
 
     # response=urllib.request.urlopen("http://grid.cs.gsu.edu/~mhan7")
     html=response.read()
-    print(html)
+    # print(html)
     NameEnd=html.find('обр╩рЁ')-2
     if NameEnd < 0:
         break
